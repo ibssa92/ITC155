@@ -21,6 +21,6 @@ public class Assignment1 {
 		
 		//black horizontal line
 		g.setColor(Color.BLACK);
-    		//drawShapes.drawLine(x,x,x,x);
+    		//g.drawLine(x,x,x,x);
 	}
 }
