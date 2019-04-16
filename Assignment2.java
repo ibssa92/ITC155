@@ -4,7 +4,7 @@ public class Assignment2 {
 
 	public static void main(String[] args) {
 
-		// create an arraylist of Integers
+		// create an arraylist of strings to test the method
 		ArrayList<String> list = new ArrayList<>();
 
 		// populate the arraylist
