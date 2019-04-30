@@ -19,12 +19,12 @@ public class Assignment2 {
 
 	}
 
-	public static void removeEvenLength(ArrayList<String> array) {
+	public static void removeEvenLength(ArrayList<String> list) {
 
-		for (int i = 0; i < array.size(); i++) {
-			String word = array.get(i);
+		for (int i = 0; i < list.size(); i++) {
+			String word = list.get(i);
 			if (word.length() % 2 == 0) {
-				array.remove(i);
+				list.remove(i);
 				i--;
 			}
 		}
