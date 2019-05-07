@@ -15,7 +15,7 @@ public class Assignment4 {
 		nameMap.put("Kobe", "Bryant");
 		nameMap.put("Michael", "Jordan");
 		nameMap.put("Magic", "Johnson");
-		nameMap.put("Larry", "Johnson");
+		nameMap.put("Larry", "Bird");
 		
 		System.out.println(isUnique(nameMap));
 
@@ -23,10 +23,15 @@ public class Assignment4 {
 	
 	
 	public static boolean isUnique(Map<String, String> map) {
-	    Set<String> setKey = map.keySet();
-	    Collection<String> collectionValue = map.values();
-	    Set<String> setValue = new HashSet<String>(collectionValue);
-	    return setKey.size() == setValue.size();
+	    Set<String> values = new HashSet();
+	    for (String value : map.values()) {
+	    	if (values.contains(value)) {
+	    		return false;
+	    	} else {
+	    		values.add(value);
+	    	}
+	    }
+		return true;
 	}
 
 }
