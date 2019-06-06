@@ -1,5 +1,5 @@
 
-public class Assignment8 {
+public class ArrayIntList {
 	private int[] elementData;
 	private int size;
 
