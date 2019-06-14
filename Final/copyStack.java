@@ -7,20 +7,7 @@ import java.util.Stack;
 public class copyStack {
 
 	public static void main(String[] args) {
-		Stack<Integer> s = new Stack<Integer>();
-		s.add(1);
-		s.add(2);
-		s.add(3);
-		s.add(6);
-		s.add(12);
-		s.add(-33);
-		s.add(8);
-		s.add(12);
-		
-		System.out.println(s.toString());
-		
-		
-
+	
 	}
 
 	public static Stack<Integer> copyStack(Stack<Integer> s) {
